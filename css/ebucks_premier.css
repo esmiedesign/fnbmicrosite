@@ -989,10 +989,10 @@ nav li {
 	padding-top:35px;
 }
 	
-	.inside {
-		width: 100%;
-		height:auto;
-	}
+.inside {
+  width: 100% !important;
+  padding-bottom: 40px;     /* extra space at end to avoid cutoff */
+}
 	
 	.inside-block1 {
 		width: 40%;
