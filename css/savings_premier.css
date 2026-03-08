@@ -209,7 +209,6 @@ nav a {
 	line-height: 42px;
 }
 nav li a {
-	border-right: 1px solid #ffffff;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
