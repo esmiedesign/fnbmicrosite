@@ -883,15 +883,7 @@ nav a#pull {
 
 @media screen and (max-width: 600px) {
 
-.inside,
-.leftside,
-.left-white-line,
-.bottom-content,
-body,
-html {
-  height: auto !important;  /* override fixed px heights */
-  min-height: 100vh;        /* ensure full view */
-}
+
 	
 .cd-top {
   display: inline-block;
