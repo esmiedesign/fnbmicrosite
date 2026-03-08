@@ -81,7 +81,7 @@ body {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #fa9d1e url(images/cd-top-arrow.png) no-repeat center 50%;
+  background: #fa9d1e url(../images/cd-top-arrow.png) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -324,7 +324,7 @@ nav a#pull {
 	height: 147px;
 	width:159px;
 	float:right;
-	background-image: url(images/p_s_1_04.png);
+	background-image: url(../images/p_s_1_04.png);
 	background-repeat:no-repeat;
 	background-size: contain;
 }
@@ -727,7 +727,7 @@ nav a#pull {
 		height:116px;
 		width:118px;
 		float:right;
-		background-image: url(images/p_s_1_04_80.png);
+		background-image: url(../images/p_s_1_04_80.png);
 		background-repeat:no-repeat;
 			background-size: contain;
 
@@ -766,7 +766,7 @@ nav a#pull {
 	.rightside-p2 {
 		width: 100%;
 		height: 200px;
-		background-image: url(images/rightside-p2_ebucks.jpg);
+		background-image: url(../images/rightside-p2_ebucks.jpg);
 		background-position:bottom;
 		background-size:cover;
 		background-repeat:no-repeat;	
@@ -895,7 +895,7 @@ nav a#pull {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #fa9d1e url(images/cd-top-arrow.png) no-repeat center 50%;
+  background: #fa9d1e url(../images/cd-top-arrow.png) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -1092,11 +1092,11 @@ nav {
 	padding-top: 0px;
 	width: 50%;
 	height: 60px;
-	background-image:url(images/how_can_we.svg);
+	background-image:url(../images/how_can_we.svg);
 }
 
 .logo {
-	background-image: url(images/p_s_1_04_80_80.png);
+	background-image: url(../images/p_s_1_04_80_80.png);
 	width: 102px;
 	height: 94px;
 	background-size: contain;
