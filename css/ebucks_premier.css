@@ -882,8 +882,6 @@ nav a#pull {
 
 
 @media screen and (max-width: 600px) {
-
-
 	
 .cd-top {
   display: inline-block;
@@ -991,10 +989,10 @@ nav li {
 	padding-top:35px;
 }
 	
-.inside {
-  width: 100% !important;
-  padding-bottom: 50px;     /* extra space at end to avoid cutoff */
-}
+	.inside {
+		width: 100%;
+		height:auto;
+	}
 	
 	.inside-block1 {
 		width: 40%;
