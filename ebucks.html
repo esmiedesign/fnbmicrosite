@@ -3,30 +3,28 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Welcome Mailer Premier eBucks Rewards</title>
-	<script src="http://www.innoviate.co.za/Premier_Welcome_Prototype/js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 <link href="css/ebucks_premier.css" rel="stylesheet" type="text/css">
 <link href="css/normalize.css" rel="styleheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script>
-$(function() {
-  var pull = $('#pull');
-  var menu = $('nav ul');
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
 
-  pull.on('click touchstart', function(e) {  // add touchstart for better mobile tap
-    e.preventDefault();
-    menu.slideToggle(300);  // faster animation
-  });
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
 
-  // Better resize handling
-  $(window).resize(function() {
-    var w = $(window).width();
-    if (w > 600) {  // match your breakpoint
-      menu.show();  // ensure visible on desktop
-    } else if (menu.is(':visible')) {
-      // optional: auto-hide on resize to mobile if open
-    }
-  });
-});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
 		
 	</script>
 <style type="text/css">
